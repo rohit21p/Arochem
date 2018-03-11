@@ -2,17 +2,19 @@
 
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXComboBox?>
-<?import com.jfoenix.controls.JFXTextArea?>
 <?import com.jfoenix.controls.JFXTextField?>
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.CheckComboBox?>
 
-<AnchorPane prefHeight="625.0" prefWidth="844.0" stylesheets="@../../../styles.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.arochem.ui.customersetup.CustomerSetupController">
+<AnchorPane maxHeight="625.0" prefHeight="625.0" prefWidth="844.0" stylesheets="@../../../styles.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.arochem.ui.customersetup.CustomerSetupController">
    <children>
       <BorderPane layoutX="202.0" layoutY="140.0" prefHeight="625.0" prefWidth="844.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
@@ -28,7 +30,7 @@
          <center>
             <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
-                  <VBox maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="500.0">
+                  <VBox maxWidth="1.7976931348623157E308" prefHeight="5000.0" prefWidth="5000.0">
                      <children>
                         <JFXTextField fx:id="firmname" labelFloat="true" prefHeight="26.0" prefWidth="362.0" promptText="Firm Name:">
                            <VBox.margin>
@@ -45,7 +47,7 @@
                               <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
                            </VBox.margin>
                         </JFXComboBox>
-                        <JFXTextField fx:id="phoneno2" labelFloat="true" prefHeight="26.0" prefWidth="362.0" promptText="Phone No.2:">
+                        <JFXTextField fx:id="phoneno1" labelFloat="true" prefWidth="362.0" promptText="Phone No.1:">
                            <VBox.margin>
                               <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
                            </VBox.margin>
@@ -55,12 +57,22 @@
                                  <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
                              </VBox.margin>
                          </JFXTextField>
-                        <JFXTextArea fx:id="address" labelFloat="true" prefWidth="362.0" promptText="Address:">
+                        <JFXTextField fx:id="address1" labelFloat="true" prefHeight="26.0" prefWidth="362.0" promptText="Address Line 1:">
                            <VBox.margin>
                               <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
                            </VBox.margin>
-                        </JFXTextArea>
+                        </JFXTextField>
+                        <JFXTextField fx:id="address2" labelFloat="true" prefHeight="26.0" prefWidth="362.0" promptText="Adress Line 2:">
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXTextField>
                         <JFXTextField fx:id="fax" labelFloat="true" prefHeight="26.0" prefWidth="362.0" promptText="fax:">
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
+                           </VBox.margin>
+                        </JFXTextField>
+                        <JFXTextField fx:id="web" labelFloat="true" prefWidth="362.0" promptText="Web:">
                            <VBox.margin>
                               <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
                            </VBox.margin>
@@ -70,7 +82,7 @@
                         <Insets />
                      </HBox.margin>
                   </VBox>
-                  <VBox maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="500.0">
+                  <VBox maxWidth="1.7976931348623157E308" prefHeight="5000.0" prefWidth="5000.0">
                      <children>
                         <JFXTextField fx:id="contactperson" labelFloat="true" prefWidth="362.0" promptText="Contact Person:">
                            <VBox.margin>
@@ -87,11 +99,25 @@
                               <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
                            </VBox.margin>
                         </JFXTextField>
-                        <JFXTextField fx:id="phoneno1" labelFloat="true" prefWidth="362.0" promptText="Phone No.1:">
+                        <JFXTextField fx:id="phoneno2" labelFloat="true" prefHeight="26.0" prefWidth="362.0" promptText="Phone No.2:">
                            <VBox.margin>
                               <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
                            </VBox.margin>
                         </JFXTextField>
+                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Label text="Products :">
+                                 <HBox.margin>
+                                    <Insets left="30.0" right="10.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <CheckComboBox fx:id="product" prefHeight="28.0" prefWidth="235.0">
+                                 <effect>
+                                    <Glow />
+                                 </effect>
+                              </CheckComboBox>
+                           </children>
+                        </HBox>
                         <JFXComboBox fx:id="state" labelFloat="true" prefHeight="28.0" prefWidth="362.0" promptText="State">
                            <VBox.margin>
                               <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
@@ -112,29 +138,40 @@
                               <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
                            </VBox.margin>
                         </JFXTextField>
-                        <JFXTextField fx:id="web" labelFloat="true" prefWidth="362.0" promptText="Web:">
-                           <VBox.margin>
-                              <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
-                           </VBox.margin>
-                        </JFXTextField>
-                        <HBox prefHeight="100.0" prefWidth="200.0">
-                           <children>
-                              <JFXButton buttonType="RAISED" onAction="#handlesaveaction" prefHeight="38.0" prefWidth="100.0" text="Save">
-                                 <HBox.margin>
-                                    <Insets left="80.0" top="27.0" />
-                                 </HBox.margin>
-                              </JFXButton>
-                              <JFXButton buttonType="RAISED" onAction="#handlecancelaction" prefHeight="38.0" prefWidth="100.0" stylesheets="@../../../styles.css" text="Cancel">
-                                 <HBox.margin>
-                                    <Insets left="40.0" right="40.0" top="27.0" />
-                                 </HBox.margin>
-                              </JFXButton>
-                           </children>
-                        </HBox>
                      </children></VBox>
                </children>
             </HBox>
          </center>
+         <bottom>
+            <HBox prefHeight="100.0" prefWidth="638.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="5000.0">
+                     <children>
+                        <JFXButton buttonType="RAISED" onAction="#handlesaveaction" prefHeight="38.0" prefWidth="100.0" text="Save">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <VBox.margin>
+                              <Insets right="30.0" />
+                           </VBox.margin>
+                        </JFXButton>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="5000.0">
+                     <children>
+                        <JFXButton buttonType="RAISED" onAction="#handlecancelaction" prefHeight="38.0" prefWidth="100.0" stylesheets="@../../../styles.css" text="Cancel" textAlignment="JUSTIFY">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                           <VBox.margin>
+                              <Insets left="30.0" />
+                           </VBox.margin>
+                        </JFXButton>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </bottom>
       </BorderPane>
    </children>
 </AnchorPane>
