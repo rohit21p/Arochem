@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/database/db.lck" afterPath="$PROJECT_DIR$/database/db.lck" />
@@ -26,6 +27,132 @@
       <change beforePath="$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetup.fxml" afterPath="$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetup.fxml" />
       <change beforePath="$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetupController.java" afterPath="$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetupController.java" />
       <change beforePath="$PROJECT_DIR$/src/sample/arochem/util/database/Database.java" afterPath="$PROJECT_DIR$/src/sample/arochem/util/database/Database.java" />
+||||||| merged common ancestors
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Arochem.iml" afterPath="$PROJECT_DIR$/Arochem.iml" />
+      <change beforePath="$PROJECT_DIR$/database/db.lck" afterPath="$PROJECT_DIR$/database/db.lck" />
+      <change beforePath="$PROJECT_DIR$/database/log/log.ctrl" afterPath="$PROJECT_DIR$/database/log/log.ctrl" />
+      <change beforePath="$PROJECT_DIR$/database/log/log1.dat" afterPath="$PROJECT_DIR$/database/log/log1.dat" />
+      <change beforePath="$PROJECT_DIR$/database/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/database/log/logmirror.ctrl" />
+      <change beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/customersetup/CustomerSetup.fxml" afterPath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/customersetup/CustomerSetup.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/customersetup/CustomerSetupController.class" afterPath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/customersetup/CustomerSetupController.class" />
+      <change beforePath="$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetup.fxml" afterPath="$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetup.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetupController.java" afterPath="$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetupController.java" />
+=======
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="initial from intellij">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Arochem.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/README_DO_NOT_TOUCH_FILES.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/db.lck" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/log/README_DO_NOT_TOUCH_FILES.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/log/log.ctrl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/log/log1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/log/logmirror.ctrl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/README_DO_NOT_TOUCH_FILES.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c10.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c101.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c111.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c121.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c130.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c141.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c150.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c161.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c171.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c180.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c191.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c1a1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c1b1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c1c0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c1d1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c1e0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c1f1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c20.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c200.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c211.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c221.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c230.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c241.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c251.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c260.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c271.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c281.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c290.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c2a1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c2b1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c2c1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c2d0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c2e1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c2f0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c300.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c31.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c311.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c321.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c331.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c340.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c351.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c361.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c371.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c380.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c391.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c3a1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c3b1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c3c0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c3d1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c3e1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c3f1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c400.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c41.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c411.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c421.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c430.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c441.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c451.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c461.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c470.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c481.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c490.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c4a0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c51.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c60.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c71.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c81.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/c90.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/ca1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/cb1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/cc0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/cd1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/ce1.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/seg0/cf0.dat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/database/service.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/derby.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/JavaFXApp/JavaFXApp.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/Arochem/sample/Controller.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/Arochem/sample/Main.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/customersetup/CustomerSetup.fxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/customersetup/CustomerSetupController.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/customersetup/CustomerSetupLoader.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/util/database/Database.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/Arochem/sample/sample.fxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/Arochem/sample/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/Controller.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetup.fxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetupController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetupLoader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/arochem/util/database/Database.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/styles.css" />
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,7 +213,13 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="0">
+||||||| merged common ancestors
+            <state relative-caret-position="336">
+=======
+            <state relative-caret-position="420">
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
               <caret line="22" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -99,7 +232,7 @@
         <entry file="file://$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetupLoader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+              <caret line="0" column="40" lean-forward="true" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,8 +246,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="106" column="53" lean-forward="false" selection-start-line="106" selection-start-column="53" selection-end-line="106" selection-end-column="53" />
+            <state relative-caret-position="189">
+              <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -133,12 +266,29 @@
       <file leaf-file-name="CustomerSetupController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetupController.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1724">
               <caret line="202" column="1" lean-forward="true" selection-start-line="202" selection-start-column="1" selection-end-line="202" selection-end-column="1" />
+||||||| merged common ancestors
+            <state relative-caret-position="-987">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+=======
+            <state relative-caret-position="155">
+              <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
               <folding>
+<<<<<<< HEAD
                 <element signature="imports" expanded="true" />
                 <element signature="e#4089#4090#0" expanded="true" />
                 <element signature="e#4142#4143#0" expanded="true" />
+||||||| merged common ancestors
+                <element signature="e#3993#3994#0" expanded="true" />
+                <element signature="e#4046#4047#0" expanded="true" />
+                <marker date="1520762835032" expanded="true" signature="5249:5250" ph="..." />
+=======
+                <element signature="imports" expanded="true" />
+                <marker date="1520688273738" expanded="true" signature="2294:2480" ph="..." />
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
               </folding>
             </state>
           </provider>
@@ -147,8 +297,16 @@
       <file leaf-file-name="Database.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/arochem/util/database/Database.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="139">
               <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+||||||| merged common ancestors
+            <state relative-caret-position="1386">
+              <caret line="67" column="9" lean-forward="false" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+=======
+            <state relative-caret-position="447">
+              <caret line="55" column="51" lean-forward="false" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1520794287360" expanded="true" signature="1690:2049" ph="CREATE TABLE... CustomerSetup3" />
@@ -242,6 +400,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,17 +427,39 @@
               <item name="sample" type="462c0819:PsiDirectoryNode" />
               <item name="arochem" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
             <path>
               <item name="Arochem" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+||||||| merged common ancestors
+            <path>
+              <item name="Arochem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arochem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="arochem" type="462c0819:PsiDirectoryNode" />
+              <item name="customersetup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arochem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arochem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="arochem" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arochem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+=======
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,12 +474,11 @@
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Compressed/controlsfx-8.40.14/controlsfx-8.40.14.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/Project/src/sample/CustomerSetup.fxml" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -476,9 +657,17 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1520601211416" duration="11285000" />
+<<<<<<< HEAD
       <workItem from="1520678318809" duration="10986000" />
       <workItem from="1520696627991" duration="28281000" />
+||||||| merged common ancestors
+      <workItem from="1520678318809" duration="10986000" />
+      <workItem from="1520696627991" duration="17930000" />
+=======
+      <workItem from="1520678318809" duration="4814000" />
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00001" summary="initial from intellij">
       <created>1520688283860</created>
       <option name="number" value="00001" />
@@ -494,10 +683,27 @@
       <updated>1520767744164</updated>
     </task>
     <option name="localTasksCounter" value="3" />
+||||||| merged common ancestors
+    <task id="LOCAL-00001" summary="initial from intellij">
+      <created>1520688283860</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1520688283860</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+=======
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="51854000" />
+||||||| merged common ancestors
+    <option name="totallyTimeSpent" value="41503000" />
+=======
+    <option name="totallyTimeSpent" value="17401000" />
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -505,18 +711,24 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.069555305" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+||||||| merged common ancestors
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37286204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2094522" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20676692" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -524,7 +736,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -597,6 +809,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="336">
           <caret line="22" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
           <folding>
@@ -672,6 +885,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+||||||| merged common ancestors
+        <state relative-caret-position="336">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetupLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetup.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/arochem/util/database/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1407">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1520679728238" expanded="true" signature="1524:2025" ph="CREATE TABLE... CustomerSetup" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="83" column="33" lean-forward="false" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
+          <folding>
+            <element signature="e#3993#3994#0" expanded="true" />
+            <element signature="e#4046#4047#0" expanded="true" />
+            <marker date="1520762835032" expanded="true" signature="5249:5250" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+=======
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
         <state relative-caret-position="105">
           <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding>
@@ -701,9 +990,18 @@
         <state relative-caret-position="1764">
           <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
+<<<<<<< HEAD
             <element signature="imports" expanded="true" />
             <element signature="e#4089#4090#0" expanded="true" />
             <element signature="e#4142#4143#0" expanded="true" />
+||||||| merged common ancestors
+            <element signature="e#3993#3994#0" expanded="true" />
+            <element signature="e#4046#4047#0" expanded="true" />
+            <marker date="1520762835032" expanded="true" signature="5249:5250" ph="..." />
+=======
+            <element signature="imports" expanded="true" />
+            <marker date="1520688273738" expanded="true" signature="2294:2480" ph="..." />
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
           </folding>
         </state>
       </provider>
@@ -795,7 +1093,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
+||||||| merged common ancestors
+        <state relative-caret-position="336">
+=======
+        <state relative-caret-position="420">
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
           <caret line="22" column="1" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -807,6 +1111,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+<<<<<<< HEAD
+          <folding />
+||||||| merged common ancestors
+=======
           <folding />
         </state>
       </provider>
@@ -816,6 +1124,42 @@
         <state relative-caret-position="84">
           <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetup.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="84">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+||||||| merged common ancestors
+        <state relative-caret-position="1386">
+          <caret line="67" column="9" lean-forward="false" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1520679728238" expanded="true" signature="1524:2025" ph="CREATE TABLE... CustomerSetup" />
+          </folding>
+=======
+        <state relative-caret-position="447">
+          <caret line="55" column="51" lean-forward="false" selection-start-line="55" selection-start-column="51" selection-end-line="55" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1520679728238" expanded="true" signature="1524:2025" ph="CREATE TABLE... CustomerSetup" />
+          </folding>
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
         </state>
       </provider>
     </entry>
@@ -830,11 +1174,24 @@
     <entry file="file://$PROJECT_DIR$/Arochem.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+<<<<<<< HEAD
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+||||||| merged common ancestors
+          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+=======
+          <caret line="0" column="40" lean-forward="true" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetup.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -856,8 +1213,31 @@
         </state>
       </provider>
     </entry>
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetup.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="106" column="53" lean-forward="false" selection-start-line="106" selection-start-column="53" selection-end-line="106" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
     <entry file="file://$PROJECT_DIR$/src/sample/arochem/ui/customersetup/CustomerSetupController.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1724">
           <caret line="202" column="1" lean-forward="true" selection-start-line="202" selection-start-column="1" selection-end-line="202" selection-end-column="1" />
           <folding>
@@ -872,11 +1252,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="57" selection-end-line="65" selection-end-column="57" />
+||||||| merged common ancestors
+        <state relative-caret-position="-987">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+=======
+        <state relative-caret-position="155">
+          <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
           <folding>
+<<<<<<< HEAD
             <element signature="imports" expanded="true" />
             <marker date="1520794287360" expanded="true" signature="1690:2049" ph="CREATE TABLE... CustomerSetup3" />
             <marker date="1520794287360" expanded="true" signature="1690:2195" ph="CREATE TABLE... CustomerSetup" />
             <marker date="1520794287360" expanded="true" signature="2649:2726" ph="CREATE TABLE... Applications" />
+||||||| merged common ancestors
+            <element signature="e#3993#3994#0" expanded="true" />
+            <element signature="e#4046#4047#0" expanded="true" />
+            <marker date="1520762835032" expanded="true" signature="5249:5250" ph="..." />
+=======
+            <element signature="imports" expanded="true" />
+            <marker date="1520688273738" expanded="true" signature="2294:2480" ph="..." />
+>>>>>>> 8cbbc8b3b666f004be2c3f6b153508fb09b72261
           </folding>
         </state>
       </provider>
@@ -892,6 +1288,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
