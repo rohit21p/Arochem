@@ -16,6 +16,7 @@ import org.controlsfx.control.CheckComboBox;
 import org.controlsfx.control.textfield.TextFields;
 import sample.arochem.util.database.Database;
 
+import javax.swing.*;
 import javax.xml.crypto.Data;
 import java.sql.*;
 
@@ -79,7 +80,7 @@ public class CustomerSetupController {
     private JFXTextField web;
 
     @FXML
-    private CheckComboBox<String> product;
+    private CheckComboBox<String> application;
 
 
     @FXML
@@ -91,7 +92,7 @@ public class CustomerSetupController {
     @FXML
     public void initialize () {
 
-        initProduct();
+        initApplications();
         initDropdowns();
     }
 
@@ -99,38 +100,38 @@ public class CustomerSetupController {
         courierpref.setItems(ol);
         TextFields.bindAutoCompletion(courierpref.getEditor(), courierpref.getItems());
     }
-    private void initProduct() {
-        product.getItems().addAll(ol);
-        product.getItems().add(0,"ALL");
-        product.getItems().add(1,"NONE");
-        product.getCheckModel().getCheckedItems().addListener(new ListChangeListener<String>() {
+    private void initApplications() {
+        application.getItems().addAll(ol);
+        application.getItems().add(0,"ALL");
+        application.getItems().add(1,"NONE");
+        application.getCheckModel().getCheckedItems().addListener(new ListChangeListener<String>() {
             boolean changing = false;
 
             @Override
             public void onChanged(ListChangeListener.Change<? extends String> c) {
-                if (!changing && product.getCheckModel().isChecked(0)) {
+                if (!changing && application.getCheckModel().isChecked(0)) {
                     // trigger no more calls to checkAll when the selected items are modified by checkAll
                     changing = true;
-                    product.getCheckModel().check(1);
-                    product.getCheckModel().clearCheck(1);
+                    application.getCheckModel().check(1);
+                    application.getCheckModel().clearCheck(1);
                     for(int i = 2;i<=6;i++)
-                        product.getCheckModel().check(i);
+                        application.getCheckModel().check(i);
                     changing = false;
-                    product.getCheckModel().clearCheck(0);
+                    application.getCheckModel().clearCheck(0);
                 }
-                if (!changing && product.getCheckModel().isChecked(1)) {
+                if (!changing && application.getCheckModel().isChecked(1)) {
                     // trigger no more calls to checkAll when the selected items are modified by checkAll
                     changing = true;
-                    product.getCheckModel().check(0);
-                    product.getCheckModel().clearChecks();
+                    application.getCheckModel().check(0);
+                    application.getCheckModel().clearChecks();
                     changing = false;
                 }
                 for(int i=2;i<=6;i++) {
-                    if (!changing && product.getCheckModel().isChecked(i)) {
+                    if (!changing && application.getCheckModel().isChecked(i)) {
                         // trigger no more calls to checkAll when the selected items are modified by checkAll
                         changing = true;
-                        product.getCheckModel().check(1);
-                        product.getCheckModel().clearCheck(1);
+                        application.getCheckModel().check(1);
+                        application.getCheckModel().clearCheck(1);
                         changing = false;
                     }
                 }
@@ -146,46 +147,56 @@ public class CustomerSetupController {
     @FXML
     void handlesaveaction(ActionEvent event) {
 
+        //get data from scene
         String firmnameans = firmname.getText();
         String webans = web.getText();
         String emailans = email.getText();
         String stdcodeans = stdcode.getText();
-        String phoneno1eans = phoneno1.getText();
+        String phoneno1ans = phoneno1.getText();
         String cellnoans = cellno.getText();
         String crmans = crm.getText();
         String contactpersonans = contactperson.getText();
         String addressans = address1.getText();
-        addressans = addressans + address2.getText();
+        addressans = addressans + " " + address2.getText();
         String pincodeans = pincode.getText();
         String phoneno2ans = phoneno2.getText();
         String faxans = fax.getText();
         String gstnoans = gstno.getText();
+        String cityans = null, stateans = null, courierprefans=null;
         if(courierpref.getSelectionModel().getSelectedItem()!=null){
-            String courierprefans = courierpref.getSelectionModel().getSelectedItem().toString();
+            courierprefans = courierpref.getSelectionModel().getSelectedItem().toString();
         }
         if(state.getSelectionModel().getSelectedItem()!=null){
-            String stateans = state.getSelectionModel().getSelectedItem().toString();
+            stateans = state.getSelectionModel().getSelectedItem().toString();
         }
         if(city.getSelectionModel().getSelectedItem()!=null){
-            String cityans = city.getSelectionModel().getSelectedItem().toString();
+            cityans = city.getSelectionModel().getSelectedItem().toString();
+        }
+        ObservableList<String> applicationans = application.getCheckModel().getCheckedItems();
+
+        //enter data into database
+        con = Database.getConnection();
+        st = Database.getStatement();
+        if(!Database.doesTableExist("CustomerSetupTrial"))
+            Database.createTableCustomerSetup();
+        if(!Database.doesTableExist("ApplicationsTrial"))
+            Database.createTableApplications();
+
+        String query = "INSERT INTO CustomerSetupTrial Values ('"+firmnameans+"', '"+gstnoans+"', '"+courierprefans+ "', " +
+                        "'"+phoneno1ans+"', '"+pincodeans+"','"+addressans+"', '"+faxans+"', '"+webans+"', " +
+                        " '"+contactpersonans+"', '"+crmans+"', '"+cellnoans+"', '"+phoneno2ans+"', " +
+                        " '"+stateans+"', '"+cityans+"','"+stdcodeans+"','"+emailans+"')";
+        Database.enterIntoDB(query);
+
+        //print data from database
+        for(int i =0; i <applicationans.size(); i++) {
+            query = "INSERT INTO ApplicationsTrial values ('"+firmnameans+"', '"+applicationans.get(i)+"')";
+            Database.enterIntoDB(query);
         }
 
 
+        JOptionPane.showMessageDialog(null,"Success");
 
-//        con = Database.getConnection();
-//        st = Database.getStatement(con);
-//
-//        if(Database.doesTableExist("CustomerSetup2"))
-//            Database.createTableCustomerSetup();
-
-//        String query = "INSERT INTO Trial Values ('"+firmnameans+"', '"+gstnoans+"', '"+courierprefans+ "', " +
-//                        "'"+phoneno2ans+"', '"+addressans+"', '"+faxans+"', '"+pincodeans+"'," +
-//                        " '"+contactpersonans+"', '"+crmans+"', '"+cellnoans+"', '"+phoneno1eans+"', '"+stdcodeans+"'," +
-//                        " '"+emailans+"', '"+webans+"', '"+stateans+"', '"+cityans+"')";;
-//
-//
-//
-//        rs = Database.getResult(query);
 
     }
 

@@ -52,7 +52,7 @@
                               <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
                            </VBox.margin>
                         </JFXTextField>
-                         <JFXTextField fx:id="pincode" labelFloat="true" prefHeight="26.0" prefWidth="362.0" promptText="Pin code">
+                         <JFXTextField fx:id="pincode" labelFloat="true" onAction="#handlepincodeaction" prefHeight="26.0" prefWidth="362.0" promptText="Pin code">
                              <VBox.margin>
                                  <Insets bottom="10.0" left="30.0" right="30.0" top="10.0" />
                              </VBox.margin>
@@ -106,12 +106,12 @@
                         </JFXTextField>
                         <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
                            <children>
-                              <Label text="Products :">
+                              <Label text="Applications:">
                                  <HBox.margin>
                                     <Insets left="30.0" right="10.0" />
                                  </HBox.margin>
                               </Label>
-                              <CheckComboBox fx:id="product" prefHeight="28.0" prefWidth="235.0">
+                              <CheckComboBox fx:id="application" prefHeight="28.0" prefWidth="235.0">
                                  <effect>
                                     <Glow />
                                  </effect>

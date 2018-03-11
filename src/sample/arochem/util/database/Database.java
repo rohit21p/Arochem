@@ -1,5 +1,6 @@
 package sample.arochem.util.database;
 
+import javax.swing.*;
 import javax.swing.plaf.nimbus.State;
 import java.sql.*;
 
@@ -11,10 +12,11 @@ public class Database {
 
     public static Connection getConnection() {
         if(con == null) {
-            System.out.println("hela");
+            System.out.println("connecting");
             try {
                 Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
                 con = DriverManager.getConnection("jdbc:derby:database;create=true");
+                System.out.println("Driver Loaded");
             } catch (SQLException e) {
                 e.printStackTrace();
             } catch (ClassNotFoundException e) {
@@ -25,7 +27,10 @@ public class Database {
         return con;
     }
 
-    public static Statement getStatement(Connection con) {
+    public static Statement getStatement() {
+            if(con==null) {
+                System.out.println("con");
+            }
             if(st == null) {
                 try {
                     st = con.createStatement();
@@ -42,7 +47,7 @@ public class Database {
         try {
             DatabaseMetaData check = null;
             check = con.getMetaData();
-            rs = check.getTables(null, null, table, null);
+            rs = check.getTables(null, null, table.toUpperCase(), null);
             if (rs.next()) {
                 return true;
             }
@@ -53,14 +58,23 @@ public class Database {
     }
 
     public static void createTableCustomerSetup() {
-        String query = "CREATE TABLE CustomerSetup2(firmname varchar(20)," +
-                " gstno varchar(20), courierpref varchar(20)," +
-                " phoneno2 varchar(20), address varchar(20)," +
-                " fax varchar(20), pincode varchar(20)," +
-                " contactperson varchar(20), crm varchar(20)," +
-                " cellno varchar(20), phoneno1 varchar(20)," +
-                " stdcode varchar(20), email varchar(20), web varchar(20)," +
-                " state varchar(20), city varchar(20))";
+        String query = "CREATE TABLE CustomerSetupTrial(firmname varchar(50)," +
+                " gstno varchar(50), courierpref varchar(50)," +
+                " phoneno1 varchar(50), pincode varchar(50)," +
+                " address varchar(50), fax varchar(50)," +
+                " web varchar(50), contactperson varchar(50)," +
+                " crm varchar(50), cellno varchar(50)," +
+                " phoneno2 varchar(50), state varchar(50), city varchar(50)," +
+                " stdcode varchar(50), email varchar(50))";
+        try {
+            st.execute(query);
+            System.out.println("creating table customer setup");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void enterIntoDB(String query) {
         try {
             st.execute(query);
         } catch (SQLException e) {
@@ -68,4 +82,14 @@ public class Database {
         }
     }
 
+    public static void createTableApplications() {
+        String query = "CREATE TABLE ApplicationsTrial(firmname varchar(50), application varchar(50))";
+
+        System.out.println("creating table application");
+        try {
+            st.execute(query);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 }
