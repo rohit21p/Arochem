@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.layout.Layer?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.arochem.ui.main.Main">
+   <children>
+      <BorderPane layoutX="3.0" layoutY="1.0" prefHeight="394.0" prefWidth="600.0">
+         <top>
+            <MenuBar BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" text="Setup">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Customer Setup" />
+                        <MenuItem mnemonicParsing="false" text="Product Setup" />
+                        <MenuItem mnemonicParsing="false" text="CRM" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Transaction" />
+                <Menu mnemonicParsing="false" text="Report" />
+                  <Menu mnemonicParsing="false" text="Option" />
+              </menus>
+            </MenuBar>
+         </top>
+         <right>
+            <VBox prefHeight="365.0" prefWidth="174.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Layer />
+                  <Label alignment="CENTER" text="Today's Calling">
+                     <VBox.margin>
+                        <Insets left="45.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Date">
+                     <VBox.margin>
+                        <Insets left="75.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>
