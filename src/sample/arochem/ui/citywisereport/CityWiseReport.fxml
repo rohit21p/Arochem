@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane fx:id="rootPane" prefHeight="600.0" prefWidth="600.0" stylesheets="@../../../styles.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.arochem.ui.citywisereport.CityWiseController">
+   <children>
+      <HBox alignment="CENTER_LEFT" layoutY="49.0" prefHeight="68.0" prefWidth="600.0" style="-fx-background-color: #b0afaf;">
+         <children>
+            <JFXComboBox fx:id="pincodecb" labelFloat="true" onAction="#loadcityinfo" promptText="    Pincode">
+               <HBox.margin>
+                  <Insets left="10.0" right="5.0" />
+               </HBox.margin>
+            </JFXComboBox>
+            <JFXComboBox fx:id="statecb" labelFloat="true" promptText="    State ">
+               <HBox.margin>
+                  <Insets left="10.0" right="5.0" />
+               </HBox.margin></JFXComboBox>
+            <JFXComboBox fx:id="citycb" labelFloat="true" layoutX="38.0" layoutY="19.0" promptText="    City">
+               <HBox.margin>
+                  <Insets left="10.0" right="5.0" />
+               </HBox.margin></JFXComboBox>
+            <JFXComboBox fx:id="consigneecb" labelFloat="true" layoutX="122.0" layoutY="19.0" promptText="    Consignee">
+               <HBox.margin>
+                  <Insets left="10.0" right="5.0" />
+               </HBox.margin></JFXComboBox>
+            <JFXButton fx:id="showreport" onAction="#handleshowreportaction" styleClass="setup-button" stylesheets="@../../../styles.css" text="Show Report">
+               <HBox.margin>
+                  <Insets left="10.0" right="2.0" />
+               </HBox.margin></JFXButton>
+            <JFXButton fx:id="closebtn" layoutX="474.0" layoutY="19.0" onAction="#handlecloseaction" styleClass="setup-button" stylesheets="@../../../styles.css" text="Close">
+               <HBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </HBox.margin></JFXButton>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <TableView fx:id="tableview" layoutY="117.0" prefHeight="483.0" prefWidth="600.0" styleClass="setup-button" stylesheets="@../../../styles.css">
+        <columns>
+          <TableColumn fx:id="consigneecol" prefWidth="75.0" text="Consignee" />
+          <TableColumn fx:id="referencecol" prefWidth="75.0" text="Ref. Number" />
+            <TableColumn fx:id="datecol" prefWidth="75.0" text="Date" />
+            <TableColumn fx:id="itemcol" prefWidth="75.0" text="Item Name" />
+            <TableColumn fx:id="subnamecol" prefWidth="75.0" text="Sub Name" />
+            <TableColumn fx:id="quantitycol" prefWidth="75.0" text="Quantity" />
+            <TableColumn fx:id="ratecol" prefWidth="75.0" text="Rate" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Label fx:id="firmname" alignment="CENTER" layoutX="202.0" layoutY="-7.0" prefHeight="43.0" prefWidth="196.0" text="Arochem Ratlam Pvt. Ltd." textAlignment="CENTER" />
+      <Label alignment="CENTER" layoutX="236.0" layoutY="24.0" prefHeight="25.0" prefWidth="129.0" text="City Wise Report" />
+   </children>
+</AnchorPane>

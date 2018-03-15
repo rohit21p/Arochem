@@ -19,7 +19,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Compressed/db-derby-10.14.1.0-lib/db-derby-10.14.1.0-lib/lib/derby.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/controlsfx-8.40.14/controlsfx-8.40.14.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -28,7 +28,16 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/Compressed/controlsfx-8.40.14/controlsfx-8.40.14.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/db-derby-10.14.1.0-bin/db-derby-10.14.1.0-bin/lib/derby.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/db-derby-10.14.1.0-bin/db-derby-10.14.1.0-bin/lib/derbyclient.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
