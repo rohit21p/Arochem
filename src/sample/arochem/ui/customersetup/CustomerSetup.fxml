@@ -30,7 +30,7 @@
          <center>
             <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
-                  <VBox maxWidth="1.7976931348623157E308" prefHeight="5000.0" prefWidth="5000.0">
+                  <VBox fx:id="rohit" maxWidth="1.7976931348623157E308" prefHeight="5000.0" prefWidth="5000.0">
                      <children>
                         <JFXTextField fx:id="firmname" labelFloat="true" prefHeight="26.0" prefWidth="362.0" promptText="Firm Name:">
                            <VBox.margin>

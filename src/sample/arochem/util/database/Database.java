@@ -58,7 +58,7 @@ public class Database {
     }
 
     public static void createTableCustomerSetup() {
-        String query = "CREATE TABLE CustomerSetupTrial(firmname varchar(50)," +
+        String query = "CREATE TABLE CustomerSetupTrial(firmname varchar(50) primary key," +
                 " gstno varchar(50), courierpref varchar(50)," +
                 " phoneno1 varchar(50), pincode varchar(50)," +
                 " address varchar(50), fax varchar(50)," +

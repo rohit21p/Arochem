@@ -10,6 +10,8 @@ import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.geometry.Insets;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import org.controlsfx.control.CheckComboBox;
@@ -81,6 +83,9 @@ public class CustomerSetupController {
 
     @FXML
     private CheckComboBox<String> application;
+
+    @FXML
+    private VBox rohit;
 
 
     @FXML
