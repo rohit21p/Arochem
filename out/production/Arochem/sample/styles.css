@@ -10,3 +10,8 @@
     -fx-background-color: black;
     -fx-text-fill: white;
 }
+
+.cross {
+
+    -fx-background-color: white;
+}
