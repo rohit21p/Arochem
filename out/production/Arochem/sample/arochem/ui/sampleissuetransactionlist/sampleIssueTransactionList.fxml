@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane nodeOrientation="LEFT_TO_RIGHT" prefHeight="530.0" prefWidth="775.0" stylesheets="@../../../styles.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.arochem.ui.sampleissuetransactionlist.SampleIssueTransactionListController">
+<AnchorPane nodeOrientation="LEFT_TO_RIGHT" prefHeight="530.0" prefWidth="795.0" stylesheets="@../../../styles.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.arochem.ui.sampleissuetransactionlist.SampleIssueTransactionListController">
     <children>
         <BorderPane prefHeight="530.0" prefWidth="775.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <top>
@@ -23,34 +23,39 @@
                                 <Insets bottom="10.0" top="10.0" />
                             </HBox.margin>
                         </JFXButton>
-                        <JFXButton fx:id="edit" text="Edit">
+                        <JFXButton fx:id="edit" onAction="#handleEditOption" text="Edit">
                             <HBox.margin>
-                                <Insets bottom="10.0" left="15.0" top="10.0" />
+                                <Insets left="10.0" />
                             </HBox.margin>
                         </JFXButton>
                         <JFXButton fx:id="refresh" text="Refresh">
                             <HBox.margin>
-                                <Insets bottom="10.0" left="15.0" top="10.0" />
+                                <Insets left="10.0" />
                             </HBox.margin>
                         </JFXButton>
                         <JFXButton fx:id="print" prefHeight="14.0" prefWidth="61.0" text="Print">
                             <HBox.margin>
-                                <Insets bottom="10.0" left="15.0" top="10.0" />
+                                <Insets left="10.0" />
                             </HBox.margin>
                         </JFXButton>
-                        <JFXTextField alignment="CENTER" labelFloat="true" prefHeight="26.0" prefWidth="230.0" promptText="Search Consignment Name">
+                        <JFXTextField alignment="CENTER" labelFloat="true" prefHeight="26.0" prefWidth="193.0" promptText="Search Consignee Name">
                             <HBox.margin>
                                 <Insets bottom="10.0" left="15.0" top="10.0" />
                             </HBox.margin>
                         </JFXTextField>
-                        <JFXComboBox fx:id="searchBy" labelFloat="true" prefHeight="26.0" prefWidth="144.0" promptText="Search By">
+                        <JFXComboBox fx:id="searchBy" labelFloat="true" prefHeight="26.0" prefWidth="128.0" promptText="Search By">
                             <HBox.margin>
                                 <Insets bottom="10.0" left="15.0" top="10.0" />
                             </HBox.margin>
                         </JFXComboBox>
+                  <JFXTextField prefHeight="26.0" prefWidth="96.0">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </JFXTextField>
                         <Button fx:id="close" mnemonicParsing="false" onAction="#handlecloseaction" text="Close">
                             <HBox.margin>
-                                <Insets bottom="10.0" left="15.0" top="10.0" />
+                                <Insets left="10.0" />
                             </HBox.margin>
                         </Button>
                     </children>
@@ -68,6 +73,9 @@
                                 <TableColumn prefWidth="156.0" text="Courier Name" />
                                 <TableColumn prefWidth="117.0" text="Docket No" />
                             </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
                         </TableView>
                     </children>
                 </VBox>

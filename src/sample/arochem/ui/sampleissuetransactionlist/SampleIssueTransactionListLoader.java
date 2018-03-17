@@ -12,7 +12,7 @@ public class SampleIssueTransactionListLoader extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sampleIssueTransactionList.fxml"));
         primaryStage.setTitle("Arochem - Sample Issue Transaction List");
-        primaryStage.setScene(new Scene(root, 775, 530));
+        primaryStage.setScene(new Scene(root, 844, 530));
         primaryStage.show();
     }
 
