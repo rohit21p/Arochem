@@ -101,7 +101,7 @@
                      <children>
                         <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="5000.0">
                            <children>
-                              <JFXButton prefHeight="31.0" prefWidth="82.0" text="Save">
+                              <JFXButton onAction="#handlesaveaction" prefHeight="31.0" prefWidth="82.0" text="Save">
                                  <VBox.margin>
                                     <Insets right="100.0" />
                                  </VBox.margin>
