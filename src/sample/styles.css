@@ -2,7 +2,7 @@
     -fx-border-color: black;
     -fx-background-color: white;
     -fx-text-fill: black;
-    -fx-padding: 5;
+    -fx-padding: 0;
 }
 
 .button {
@@ -10,5 +10,5 @@
     -fx-background-radius: 20px;
     -fx-background-color: black;
     -fx-text-fill: white;
-    -fx-padding: 5;
+    -fx-padding: 0;
 }
