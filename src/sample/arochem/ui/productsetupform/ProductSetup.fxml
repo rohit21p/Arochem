@@ -76,7 +76,7 @@
                                     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                                  </VBox.margin>
                               </JFXTextField>
-                              <JFXComboBox fx:id="olfactorygroupname" labelFloat="true" prefHeight="31.0" prefWidth="254.0" promptText="Olfactory group name:">
+                              <JFXComboBox fx:id="olfactorygroupname" editable="true" labelFloat="true" prefHeight="31.0" prefWidth="254.0" promptText="Olfactory group name:">
                                  <VBox.margin>
                                     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                                  </VBox.margin>
@@ -112,7 +112,7 @@
                            <children>
                               <JFXButton onAction="#handleresetaction" prefHeight="31.0" prefWidth="79.0" text="Reset">
                                  <VBox.margin>
-                                    <Insets left="20.0" right="20.0" />
+                                    <Insets left="100.0" />
                                  </VBox.margin>
                               </JFXButton>
                            </children>
@@ -131,43 +131,36 @@
                   <VBox prefHeight="200.0" prefWidth="5000.0">
                      <children>
                         <HBox alignment="CENTER" prefHeight="54.0" prefWidth="1338.0">
-                           <children>
-                              <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="5000.0">
-                                 <children>
-                                    <JFXComboBox fx:id="searchbyitemname" labelFloat="true" prefHeight="31.0" prefWidth="254.0" promptText="Item name:">
-                                       <VBox.margin>
-                                          <Insets right="20.0" />
-                                       </VBox.margin>
-                                    </JFXComboBox>
-                                 </children>
-                              </VBox>
-                              <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="5000.0">
-                                 <children>
-                                    <JFXComboBox fx:id="searchItem" labelFloat="true" prefWidth="254.0" promptText="Search Item:">
-                                       <VBox.margin>
-                                          <Insets left="20.0" />
-                                       </VBox.margin>
-                                    </JFXComboBox>
-                                 </children>
-                              </VBox>
-                           </children>
                            <VBox.margin>
                               <Insets bottom="10.0" />
                            </VBox.margin>
+                           <children>
+                              <JFXComboBox fx:id="searchItem" editable="true" labelFloat="true" prefWidth="254.0" promptText="Search Item:">
+                                 <HBox.margin>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </JFXComboBox>
+                              <JFXButton onAction="#handlesearchaction" prefHeight="31.0" prefWidth="82.0" text="Search">
+                                 <HBox.margin>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </HBox.margin>
+                              </JFXButton>
+                           </children>
                         </HBox>
-                        <ScrollPane fitToWidth="true" hbarPolicy="NEVER" prefHeight="5000.0" prefWidth="5000.0">
+                        <ScrollPane fitToWidth="true" hbarPolicy="NEVER" prefHeight="408.0" prefWidth="1338.0">
                            <content>
                               <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="5000.0" prefWidth="5000.0">
                                  <children>
-                                    <TableView editable="true" maxWidth="1336.0" minWidth="1336.0" prefHeight="5000.0" prefWidth="1336.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <TableView fx:id="table" editable="true" maxWidth="1336.0" minWidth="1336.0" prefHeight="5000.0" prefWidth="1336.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                        <columns>
-                                          <TableColumn prefWidth="128.0" text="Subname" />
-                                          <TableColumn prefWidth="168.0" text="Applicatin Sector" />
-                                          <TableColumn minWidth="0.0" prefWidth="85.99996948242188" text="Date" />
-                                          <TableColumn minWidth="0.0" prefWidth="112.0" text="Groupname" />
-                                          <TableColumn minWidth="0.0" prefWidth="78.0" text="itemname" />
-                                          <TableColumn prefWidth="176.0" text="Price" />
-                                          <TableColumn minWidth="0.0" prefWidth="293.0" text="Sensory Description" />
+                                          <TableColumn fx:id="itemcodecol" prefWidth="128.0" text="itemcode" />
+                                          <TableColumn fx:id="subnamecol" prefWidth="128.0" text="Subname" />
+                                          <TableColumn fx:id="applicationsectorcol" prefWidth="168.0" text="Application Sector" />
+                                          <TableColumn fx:id="datecol" minWidth="0.0" prefWidth="85.99996948242188" text="Date" />
+                                          <TableColumn fx:id="groupnamecol" minWidth="0.0" prefWidth="112.0" text="Groupname" />
+                                          <TableColumn fx:id="itemnamecol" minWidth="0.0" prefWidth="78.0" text="itemname" />
+                                          <TableColumn fx:id="pricecol" prefWidth="176.0" text="Price" />
+                                          <TableColumn fx:id="sensorydesccol" minWidth="0.0" prefWidth="293.0" text="Sensory Description" />
                                        </columns>
                                        <columnResizePolicy>
                                           <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
