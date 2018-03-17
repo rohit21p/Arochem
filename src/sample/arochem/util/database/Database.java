@@ -74,6 +74,31 @@ public class Database {
         }
     }
 
+    public static void createTableProductSetup() {
+        String query = "CREATE TABLE ProductSetupTrial3(itemcode varchar(255), itemname varchar(50)," +
+                " subname varchar(50), sensorydesc varchar(32672)," +
+                " sellingprice varchar(50), olfactorygroupname varchar(50)," +
+                " remark varchar(50), setupdate DATE)";
+        try {
+            st.execute(query);
+            System.out.println("creating table Product setup");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+//    REFERENCES ProductSetupTrial(itemcode)
+    public static void createTableApplicationSector() {
+        String query = "CREATE TABLE ApplicationSectorTrial3(itemcode varchar(255), itemname varchar(50)," +
+                " ApplicationSector varchar(50))";
+        try {
+            st.execute(query);
+            System.out.println("creating table Application Sector");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static void enterIntoDB(String query) {
         try {
             st.execute(query);
@@ -91,5 +116,14 @@ public class Database {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    public static ResultSet getdata(String query) {
+        try {
+            rs = st.executeQuery(query);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return rs;
     }
 }
