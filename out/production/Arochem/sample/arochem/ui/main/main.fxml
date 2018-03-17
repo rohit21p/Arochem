@@ -1,52 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.gluonhq.charm.glisten.layout.Layer?>
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.Menu?>
-<?import javafx.scene.control.MenuBar?>
-<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.arochem.ui.main.Main">
-   <children>
-      <BorderPane layoutX="3.0" layoutY="1.0" prefHeight="394.0" prefWidth="600.0">
-         <top>
-            <MenuBar BorderPane.alignment="CENTER">
-              <menus>
-                <Menu mnemonicParsing="false" text="Setup">
-                  <items>
-                    <MenuItem mnemonicParsing="false" text="Customer Setup" />
-                        <MenuItem mnemonicParsing="false" text="Product Setup" />
-                        <MenuItem mnemonicParsing="false" text="CRM" />
-                  </items>
-                </Menu>
-                <Menu mnemonicParsing="false" text="Transaction" />
-                <Menu mnemonicParsing="false" text="Report" />
-                  <Menu mnemonicParsing="false" text="Option" />
-              </menus>
-            </MenuBar>
-         </top>
-         <right>
-            <VBox prefHeight="365.0" prefWidth="174.0" BorderPane.alignment="CENTER">
-               <children>
-                  <Layer />
-                  <Label alignment="CENTER" text="Today's Calling">
-                     <VBox.margin>
-                        <Insets left="45.0" />
-                     </VBox.margin>
-                  </Label>
-                  <Label text="Date">
-                     <VBox.margin>
-                        <Insets left="75.0" />
-                     </VBox.margin>
-                  </Label>
-               </children>
-            </VBox>
-         </right>
-      </BorderPane>
-   </children>
+<AnchorPane prefHeight="625.0" prefWidth="844.0" style="-fx-background-color: #d1d8e0;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.arochem.ui.main.MainController">
+    <children>
+        <BorderPane prefHeight="625.0" prefWidth="844.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <bottom>
+                <HBox alignment="BOTTOM_CENTER" prefHeight="122.0" prefWidth="563.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <JFXButton alignment="CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" prefHeight="5000.0" prefWidth="5000.0" style="-fx-background-color: #546de5;" text="Setup" textAlignment="CENTER">
+                            <graphic>
+                                <ImageView fitHeight="62.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../img/setup.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                        </JFXButton>
+                        <JFXButton alignment="CENTER" contentDisplay="TOP" prefHeight="5000.0" prefWidth="5000.0" style="-fx-background-color: #e15f41;" text="Reports" textAlignment="CENTER">
+                            <HBox.margin>
+                                <Insets left="10.0" />
+                            </HBox.margin>
+                            <graphic>
+                                <ImageView fitHeight="62.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../img/reports.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </JFXButton>
+                        <JFXButton alignment="CENTER" contentDisplay="TOP" layoutX="285.0" layoutY="10.0" prefHeight="5000.0" prefWidth="5000.0" style="-fx-background-color: #546de5;" text="Transaction" textAlignment="CENTER">
+                            <graphic>
+                                <ImageView fitHeight="62.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../img/Transaction.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <HBox.margin>
+                                <Insets left="10.0" />
+                            </HBox.margin>
+                        </JFXButton>
+                        <JFXButton alignment="CENTER" contentDisplay="TOP" layoutX="285.0" layoutY="10.0" prefHeight="5000.0" prefWidth="5000.0" style="-fx-background-color: #e15f41;" text="Option" textAlignment="CENTER">
+                            <graphic>
+                                <ImageView fitHeight="62.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../../../img/options.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <HBox.margin>
+                                <Insets left="10.0" />
+                            </HBox.margin>
+                        </JFXButton>
+                    </children>
+                    <BorderPane.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </BorderPane.margin>
+                </HBox>
+            </bottom>
+            <center>
+                <ImageView fitHeight="157.0" fitWidth="178.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                    <image>
+                        <Image url="@../../../img/logo.png" />
+                    </image>
+                </ImageView>
+            </center>
+            <top>
+                <HBox alignment="CENTER" prefHeight="51.0" prefWidth="844.0" style="-fx-background-color: #d1d8e0;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" text="Arochem Ratlam Pvt Ltd.">
+                            <font>
+                                <Font name="System Bold" size="18.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+            </top>
+        </BorderPane>
+    </children>
+    <padding>
+        <Insets bottom="50.0" />
+    </padding>
 </AnchorPane>
