@@ -1,18 +1,16 @@
-package sample.arochem.ui.crmsetup;
-
+package sample.arochem.ui.couriersetup;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-
-public class CrmLoader extends Application {
+public class CourierSetupLoader extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("crmsetup.fxml"));
-        primaryStage.setTitle("Arochem - CRM Setup");
+        Parent root = FXMLLoader.load(getClass().getResource("CourierSetup.fxml"));
+        primaryStage.setTitle("Arochem - Courier Setup Form");
         primaryStage.setScene(new Scene(root, 844, 625));
         primaryStage.show();
     }
