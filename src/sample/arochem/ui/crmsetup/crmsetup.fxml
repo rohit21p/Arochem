@@ -10,23 +10,26 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="690.0" stylesheets="@../../../styles.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <VBox prefHeight="500.0" prefWidth="690.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <VBox alignment="TOP_CENTER" prefHeight="500.0" prefWidth="690.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <JFXTextField alignment="TOP_CENTER" editable="false" text="CRM Setup">
+            <JFXTextField alignment="CENTER" editable="false" focusColor="BLACK" prefHeight="39.0" prefWidth="690.0" text="CRM Setup">
                <font>
-                  <Font name="System Bold" size="16.0" />
+                  <Font size="16.0" />
                </font>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
             </JFXTextField>
-            <VBox alignment="TOP_CENTER" prefHeight="165.0" prefWidth="5000.0">
+            <VBox alignment="CENTER" prefHeight="165.0" prefWidth="5000.0">
                <children>
-                  <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="207.0" text="Search by employee name">
+                  <Label alignment="TOP_CENTER" prefHeight="17.0" prefWidth="207.0" text="Search by employee name:">
                      <font>
                         <Font size="14.0" />
                      </font>
                      <VBox.margin>
-                        <Insets bottom="10.0" />
+                        <Insets bottom="20.0" />
                      </VBox.margin>
                   </Label>
                   <HBox alignment="CENTER" prefHeight="39.0" prefWidth="600.0">
@@ -34,22 +37,16 @@
                         <Insets top="5.0" />
                      </VBox.margin>
                      <children>
-                        <HBox prefHeight="39.0" prefWidth="208.0">
+                        <HBox alignment="CENTER" prefHeight="39.0" prefWidth="694.0">
                            <children>
                               <JFXTextField alignment="TOP_LEFT" labelFloat="true" onAction="#empn" promptText="Employee Name">
                                  <HBox.margin>
-                                    <Insets left="0.27" />
+                                    <Insets />
                                  </HBox.margin>
                               </JFXTextField>
-                              <JFXButton onAction="#crmsearch" text="search">
-                                 <padding>
-                                    <Insets left="18.0" right="15.0" />
-                                 </padding>
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
+                              <JFXButton onAction="#savebtn" prefHeight="25.0" prefWidth="51.0" text="Search">
                                  <HBox.margin>
-                                    <Insets left="6.0" top="9.0" />
+                                    <Insets left="10.0" />
                                  </HBox.margin>
                               </JFXButton>
                            </children>
@@ -58,31 +55,31 @@
                   </HBox>
                   <HBox alignment="CENTER" prefHeight="41.0" prefWidth="600.0">
                      <VBox.margin>
-                        <Insets top="-8.0" />
+                        <Insets top="10.0" />
                      </VBox.margin>
                      <children>
-                        <JFXTextField onAction="#cnt" promptText="Contact">
+                        <JFXTextField labelFloat="true" onAction="#cnt" promptText="Contact">
                            <HBox.margin>
-                              <Insets left="7.0" top="11.0" />
+                              <Insets />
                            </HBox.margin>
                         </JFXTextField>
-                        <JFXButton onAction="#savebtn" prefHeight="25.0" prefWidth="81.0" text="save">
+                        <JFXButton onAction="#savebtn" prefHeight="25.0" prefWidth="51.0" text="Save">
                            <HBox.margin>
-                              <Insets top="13.0" />
+                              <Insets left="10.0" />
                            </HBox.margin>
                         </JFXButton>
                      </children>
                   </HBox>
-                  <HBox prefHeight="29.0" prefWidth="690.0">
+                  <HBox alignment="CENTER" prefHeight="29.0" prefWidth="690.0">
                      <children>
-                        <JFXTextField onAction="#crmi" prefHeight="25.0" prefWidth="137.0" promptText="CRM Id">
+                        <JFXTextField labelFloat="true" onAction="#crmi" prefHeight="26.0" prefWidth="157.0" promptText="CRM Id">
                            <HBox.margin>
-                              <Insets left="241.0" />
+                              <Insets right="60.0" />
                            </HBox.margin>
                         </JFXTextField>
                      </children>
                      <VBox.margin>
-                        <Insets top="11.0" />
+                        <Insets bottom="20.0" top="11.0" />
                      </VBox.margin>
                   </HBox>
                </children>
@@ -93,9 +90,9 @@
             <Separator prefWidth="200.0" />
             <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="5000.0">
                <children>
-                  <VBox alignment="TOP_CENTER" prefHeight="34.0" prefWidth="600.0">
+                  <VBox alignment="CENTER" prefHeight="34.0" prefWidth="600.0">
                      <children>
-                        <Label prefHeight="20.0" prefWidth="113.0" text="Search by CRM ID">
+                        <Label prefHeight="20.0" prefWidth="133.0" text="Search by CRM ID:">
                            <VBox.margin>
                               <Insets left="19.0" top="7.0" />
                            </VBox.margin>
@@ -115,13 +112,10 @@
                               <Insets />
                            </HBox.margin>
                         </JFXTextField>
-                        <JFXButton onAction="#crmsearch" text="search">
+                        <JFXButton onAction="#savebtn" prefHeight="25.0" prefWidth="51.0" text="Search">
                            <HBox.margin>
-                              <Insets left="17.0" top="9.0" />
+                              <Insets left="10.0" />
                            </HBox.margin>
-                           <padding>
-                              <Insets left="18.0" right="15.0" />
-                           </padding>
                         </JFXButton>
                      </children>
                      <VBox.margin>
@@ -137,7 +131,7 @@
                            <children>
                               <JFXTextField labelFloat="true" onAction="#empname" promptText="Employee Name">
                                  <HBox.margin>
-                                    <Insets right="85.0" />
+                                    <Insets right="60.0" />
                                  </HBox.margin>
                               </JFXTextField>
                            </children>
@@ -147,11 +141,11 @@
                         </HBox>
                      </children>
                   </HBox>
-                  <HBox prefHeight="32.0" prefWidth="690.0">
+                  <HBox alignment="CENTER" prefHeight="32.0" prefWidth="690.0">
                      <children>
-                        <JFXTextField labelFloat="true" onAction="#cnt" prefHeight="19.0" prefWidth="135.0" promptText="Contact">
+                        <JFXTextField labelFloat="true" onAction="#cnt" prefHeight="26.0" prefWidth="155.0" promptText="Contact">
                            <HBox.margin>
-                              <Insets left="236.0" top="8.0" />
+                              <Insets right="60.0" top="8.0" />
                            </HBox.margin>
                         </JFXTextField>
                      </children>

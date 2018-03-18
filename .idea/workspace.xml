@@ -1,34 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="CRM setup UI fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Arochem.iml" afterPath="$PROJECT_DIR$/Arochem.iml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/Controller.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/citywisereport/CityWiseLoader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/customersetup/CustomerSetupController$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/customersetup/CustomerSetupController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/customersetup/CustomerSetupLoader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/itemwisereport/ItemWiseReportController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/itemwisereport/ItemWiseReportLoader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/main/MainController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/main/MainLoader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/productsetupform/ProductSetupController$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/productsetupform/ProductSetupController$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/productsetupform/ProductSetupController$Product.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/productsetupform/ProductSetupController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/productsetupform/ProductSetupLoader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/sampleissue/SampleIssueController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/sampleissue/SampleIssueLoader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/sampleissuetransactionlist/SampleIssueTransactionListController$Sample.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/sampleissuetransactionlist/SampleIssueTransactionListController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/sampleissuetransactionlist/SampleIssueTransactionListLoader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/setupscreen/SetupScreenController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/setupscreen/SetupScreenLoader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/util/database/Database.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/util/database/DatabaseHandler.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/sample/arochem/ui/sampleissuetransactionlist/sampleIssueTransactionList.fxml" afterPath="$PROJECT_DIR$/src/sample/arochem/ui/sampleissuetransactionlist/sampleIssueTransactionList.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/itemwisereport/itemWiseReport.fxml" afterPath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/itemwisereport/itemWiseReport.fxml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/sampleissuetransactionlist/sampleIssueTransactionList.fxml" afterPath="$PROJECT_DIR$/out/production/Arochem/sample/arochem/ui/sampleissuetransactionlist/sampleIssueTransactionList.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/sample/arochem/ui/crmsetup/CrmController.java" afterPath="$PROJECT_DIR$/src/sample/arochem/ui/crmsetup/CrmController.java" />
+      <change beforePath="$PROJECT_DIR$/src/sample/arochem/ui/crmsetup/crmsetup.fxml" afterPath="$PROJECT_DIR$/src/sample/arochem/ui/crmsetup/crmsetup.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -146,8 +124,8 @@
       <file leaf-file-name="CrmController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/arochem/ui/crmsetup/CrmController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2072">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="-16">
+              <caret line="62" column="37" lean-forward="false" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -180,7 +158,7 @@
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15090">
-              <caret line="1077" column="18" lean-forward="false" selection-start-line="1077" selection-start-column="18" selection-end-line="1077" selection-end-column="18" />
+              <caret line="1065" column="18" lean-forward="false" selection-start-line="1065" selection-start-column="18" selection-end-line="1065" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -231,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/sample/arochem/ui/productsetupform/ProductSetupLoader.java" />
         <option value="$PROJECT_DIR$/src/sample/arochem/ui/productsetupform/ProductSetupController.java" />
         <option value="$PROJECT_DIR$/src/sample/arochem/ui/sampleissuetransactionlist/sampleIssueTransactionList.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/arochem/ui/crmsetup/CrmController.java" />
       </list>
     </option>
   </component>
@@ -611,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521140734514</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sample issu TxL buttons fixed">
+      <created>1521362486090</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1521362486090</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -623,7 +609,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.034375" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -667,7 +653,9 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="initial from intellij" />
     <MESSAGE value="Product Setup UI ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product Setup UI ready" />
+    <MESSAGE value="sample issu TxL buttons fixed" />
+    <MESSAGE value="CRM setup UI fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRM setup UI fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -946,7 +934,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15090">
-          <caret line="1077" column="18" lean-forward="false" selection-start-line="1077" selection-start-column="18" selection-end-line="1077" selection-end-column="18" />
+          <caret line="1065" column="18" lean-forward="false" selection-start-line="1065" selection-start-column="18" selection-end-line="1065" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1030,8 +1018,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/arochem/ui/crmsetup/CrmController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2072">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="-16">
+          <caret line="62" column="37" lean-forward="false" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
           <folding />
         </state>
       </provider>
