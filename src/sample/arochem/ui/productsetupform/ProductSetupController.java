@@ -338,6 +338,7 @@ public class ProductSetupController extends ProductSetupLoader{
         subnameans.add(subname.getText());
         tag1.setText(subname.getText()+" | x");
         hbox.setPadding(new Insets(0,0,0,20));
+        tag1.setStyle("-fx-padding: 6.5;");
         hbox.getChildren().add(tag1);
         subname.setText("");
         tag1.setOnAction(new EventHandler<ActionEvent>() {
