@@ -15,9 +15,9 @@
    <children>
       <BorderPane layoutY="88.0" prefHeight="625.0" prefWidth="844.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
-            <HBox alignment="CENTER" prefHeight="51.0" prefWidth="844.0" BorderPane.alignment="CENTER">
+            <HBox alignment="CENTER" prefHeight="51.0" prefWidth="844.0" style="-fx-background-color: #3B3B98;" BorderPane.alignment="CENTER">
                <children>
-                  <Label alignment="CENTER" contentDisplay="CENTER" text="Arochem Ratlam Pvt Ltd.">
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Arochem Ratlam Pvt Ltd." textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
