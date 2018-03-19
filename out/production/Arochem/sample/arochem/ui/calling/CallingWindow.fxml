@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="737.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.arochem.ui.calling.CallingWindow">
+   <children>
+      <TableView layoutX="204.0" layoutY="45.0" prefHeight="632.0" prefWidth="307.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn minWidth="20.0" prefWidth="50.0" text="Sr.No." />
+          <TableColumn prefWidth="190.0" text="Name" />
+            <TableColumn prefWidth="199.0" text="Phone No." />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
