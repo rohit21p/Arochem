@@ -19,7 +19,7 @@ public class SetupScreenController {
     }
     @FXML
     void handlecrmsetupaction(ActionEvent event) {
-        loadWindow("src/sample/arochem/ui/crmsetup/crmsetup.fxml","Arochem - CRM Setup Form");
+        loadWindow("src/sample/arochem/ui/crmsetup/CRMSetup.fxml","Arochem - CRM Setup Form");
     }
 
     @FXML
@@ -43,7 +43,13 @@ public class SetupScreenController {
             Parent root = FXMLLoader.load(url);
             Stage primaryStage = new Stage();
             primaryStage.setTitle("Arochem - Customer Setup Form");
-            primaryStage.setScene(new Scene(root, 844, 625));
+
+            if(title.equals("Arochem - Product Setup Form")) {
+                primaryStage.setScene(new Scene(root, 1000, 800));
+            }
+            else {
+                primaryStage.setScene(new Scene(root, 844, 625));
+            }
             primaryStage.show();
         } catch (IOException e) {
             e.printStackTrace();
