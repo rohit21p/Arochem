@@ -1,4 +1,4 @@
-package sample.arochem.ui.setupscreen;
+package sample.arochem.ui.reportscreen;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,13 +6,13 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class SetupScreenLoader extends Application {
+public class ReportScreenLoader extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("SetupScreen.fxml"));
-        primaryStage.setTitle("Arochem - Setup");
-        primaryStage.setScene(new Scene(root, 844, 625));
+        Parent root = FXMLLoader.load(getClass().getResource("ReportScreen.fxml"));
+        primaryStage.setTitle("Arochem - Reports");
+        primaryStage.setScene(new Scene(root, 844, 750));
         primaryStage.show();
     }
 
