@@ -29,7 +29,7 @@ public class Database {
 
     public static Statement getStatement() {
             if(con==null) {
-                System.out.println("con");
+                con = getConnection();
             }
             if(st == null) {
                 try {
