@@ -1,19 +1,16 @@
-package sample.arochem.ui.citywisereport;
-
+package sample.arochem.ui.couriersetup;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-
-public class CityWiseLoader extends Application {
+public class CourierSetupLoader extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("CityWiseReport.fxml"));
-        Scene scene = new Scene(root);
-        primaryStage.setTitle("Arochem - City Wise Report");
+        Parent root = FXMLLoader.load(getClass().getResource("CourierSetup.fxml"));
+        primaryStage.setTitle("Arochem - Courier Setup Form");
         primaryStage.setScene(new Scene(root, 844, 625));
         primaryStage.show();
     }
