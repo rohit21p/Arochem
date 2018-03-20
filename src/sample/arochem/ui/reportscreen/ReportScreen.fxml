@@ -66,7 +66,7 @@
                   </HBox>
                   <HBox prefHeight="100.0" prefWidth="200.0">
                      <children>
-                        <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" prefHeight="85.0" prefWidth="5000.0" text="City Wise Report" textAlignment="CENTER">
+                        <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" onAction="#handlecitywisereportaction" prefHeight="85.0" prefWidth="5000.0" text="City Wise Report" textAlignment="CENTER">
                            <HBox.margin>
                               <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                            </HBox.margin>
@@ -134,7 +134,7 @@
                               <Insets bottom="20.0" top="20.0" />
                            </padding>
                         </JFXButton>
-                        <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" prefHeight="85.0" prefWidth="5000.0" text="Report 10" textAlignment="CENTER">
+                        <JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="TOP" onAction="#handleitemwisereportaction" prefHeight="85.0" prefWidth="5000.0" text="Item Wise Report" textAlignment="CENTER">
                            <HBox.margin>
                               <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                            </HBox.margin>
