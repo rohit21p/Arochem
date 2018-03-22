@@ -57,6 +57,16 @@ public class Database {
         return false;
     }
 
+    public static void createTableCourierSetup() {
+        String query = "CREATE TABLE CourierSetupTrial2(name varchar(255),pincode varchar(255), city VARCHAR(255),state varchar(255), contact VARCHAR(255), address varchar(255), docket varchar(255))";
+        try {
+            st.execute(query);
+            System.out.println("creating table Courier setup");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static void createTableCustomerSetup() {
         String query = "CREATE TABLE CustomerSetupTrial(firmname varchar(50)," +
                 " gstno varchar(50), courierpref varchar(50)," +
