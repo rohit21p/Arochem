@@ -117,6 +117,7 @@ public class ProductSetupController extends ProductSetupLoader{
     private void initSearchItem() {
         ObservableList ol2 = ol;
         ol2.clear();
+        searchItem.getItems().clear();
         Database.getConnection();
         Database.getStatement();
         if(!Database.doesTableExist("ProductSetupTrial3")) {
