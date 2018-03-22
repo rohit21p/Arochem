@@ -29,10 +29,10 @@ public class MainController {
     @FXML
     void handlereportsaction(ActionEvent event) {
         try {
-            URL url = Paths.get("src/sample/arochem/ui/itemwisereport/itemWiseReport.fxml").toUri().toURL();
+            URL url = Paths.get("src/sample/arochem/ui/reportscreen/ReportScreen.fxml").toUri().toURL();
             Parent root = FXMLLoader.load(url);
             Stage primaryStage = new Stage();
-            primaryStage.setTitle("Arochem - Item Wise Report");
+            primaryStage.setTitle("Arochem - Reports");
             primaryStage.setScene(new Scene(root, 844, 625));
             primaryStage.show();
         } catch (IOException e) {
@@ -47,7 +47,7 @@ public class MainController {
             URL url = Paths.get("src/sample/arochem/ui/setupscreen/SetupScreen.fxml").toUri().toURL();
             Parent root = FXMLLoader.load(url);
             Stage primaryStage = new Stage();
-            primaryStage.setTitle("Arochem - Customer Setup Form");
+            primaryStage.setTitle("Arochem - Setup");
             primaryStage.setScene(new Scene(root, 844, 625));
             primaryStage.show();
         } catch (IOException e) {
