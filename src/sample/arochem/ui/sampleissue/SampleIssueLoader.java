@@ -11,7 +11,7 @@ public class SampleIssueLoader extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("SampleIssue.fxml"));
-        primaryStage.setTitle("Arochem - Sample ISsue");
+        primaryStage.setTitle("Arochem - Sample Issue");
         primaryStage.setScene(new Scene(root, 844, 625));
         primaryStage.show();
     }
