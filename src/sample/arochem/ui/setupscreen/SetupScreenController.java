@@ -42,7 +42,7 @@ public class SetupScreenController {
             URL url = Paths.get(path).toUri().toURL();
             Parent root = FXMLLoader.load(url);
             Stage primaryStage = new Stage();
-            primaryStage.setTitle("Arochem - Customer Setup Form");
+            primaryStage.setTitle(title);
 
             if(title.equals("Arochem - Product Setup Form")) {
                 primaryStage.setScene(new Scene(root, 1000, 800));
