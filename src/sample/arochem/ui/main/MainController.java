@@ -6,12 +6,20 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import sample.arochem.util.database.Database;
 
+import javax.xml.crypto.Data;
 import java.io.IOException;
 import java.net.URL;
 import java.nio.file.Paths;
 
 public class MainController {
+
+    @FXML
+    void initialize() {
+        Database.getConnection();
+        Database.getStatement();
+    }
 
     @FXML
     void handleoptionaction(ActionEvent event) {
