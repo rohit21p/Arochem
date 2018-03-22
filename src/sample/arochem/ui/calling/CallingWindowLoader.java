@@ -12,7 +12,7 @@ public class CallingWindowLoader extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("CallingWindow.fxml"));
         primaryStage.setTitle("Arochem - Customer Setup Form");
-        primaryStage.setScene(new Scene(root, 844, 625));
+        primaryStage.setScene(new Scene(root, 420, 625));
         primaryStage.show();
     }
 
