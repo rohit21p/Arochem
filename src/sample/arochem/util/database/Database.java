@@ -67,6 +67,18 @@ public class Database {
         }
     }
 
+
+    public static void createTableCrmSetup() {
+        String query = "CREATE TABLE CrmSetupTrial(empname varchar(255), empcontact varchar(255), crmid varchar(255) primary key)";
+        try {
+            st.execute(query);
+            System.out.println("creating table CRM setup");
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+
     public static void createTableCustomerSetup() {
         String query = "CREATE TABLE CustomerSetupTrial(firmname varchar(50)," +
                 " gstno varchar(50), courierpref varchar(50)," +
@@ -111,6 +123,7 @@ public class Database {
     public static void enterIntoDB(String query) {
         try {
             st.execute(query);
+            JOptionPane.showMessageDialog(null,"Data Entered Successfully");
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -134,5 +147,16 @@ public class Database {
             e.printStackTrace();
         }
         return rs;
+    }
+
+    public static void createTableSampleIssue() {
+        String query = "CREATE TABLE SampleIssueTrial(refno varchar(255), refdate varchar(255), consignee varchar(255), city varchar(255), couriername varchar(255), docketno varchar(255))";
+
+        System.out.println("creating table Sample Issue");
+        try {
+            st.execute(query);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }
